@@ -1,4 +1,4 @@
-IMPORTADOR OLIB-DSPACE (Modificado 19-08-2008)
+IMPORTADOR OLIB-DSPACE
 
 El propósito de esta aplicación es facilitar el proceso de importación de entradas en las diferentes instancias de DSpace de la Universidad Icesi.
 
@@ -14,7 +14,7 @@ Es requerido que el nombre de estos PDF's sea igual al nombre que figura en los 
 
 PASO 3.
 Abrir el IMPORTADOR OLIB-DSPACE e ingresar los usuarios y contraseñas de la instancia de DSpace y de OLIB a las que requiere acceso.
-La direcci�n IP del equipo local debe tener acceso a la Base de Datos de las instancia de DSpace.
+La dirección IP del equipo local debe tener acceso a la Base de Datos de las instancia de DSpace.
 
 PASO 4.
 Colocar el número de identificación de la colección en el campo de ID colección DSpace.
