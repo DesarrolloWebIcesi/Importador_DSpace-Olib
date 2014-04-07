@@ -1,0 +1,43 @@
+Importador_DSpace-Olib
+======================
+
+El propósito de esta aplicación es facilitar el proceso de importación de entradas en las diferentes instancias de DSpace de la Universidad Icesi.
+
+El propósito de esta aplicación es facilitar el proceso de importación de entradas en las diferentes instancias de DSpace de la Universidad Icesi.
+
+
+Pasos para importar:
+
+PASO 1.
+Ya debe existir en DSpace una colección en la cual se van a importar los títulos; esta colección puede estar vacía o con otros títulos.
+
+PASO 2.
+Agrupar los PDF's asociados a los títulos a importar en una carpeta del equipo local.
+Es requerido que el nombre de estos PDF's sea igual al nombre que figura en los objetos asociados del título en OLIB.
+
+PASO 3.
+Abrir el IMPORTADOR OLIB-DSPACE e ingresar los usuarios y contraseñas de la instancia de DSpace y de OLIB a las que requiere acceso.
+La dirección IP del equipo local debe tener acceso a la Base de Datos de las instancia de DSpace.
+
+PASO 4.
+Colocar el número de identificación de la colección en el campo de ID colección DSpace.
+Para esto, puede realizar la búsqueda de identificadores de colección para cada instancia de DSpace.
+
+PASO 5.
+Colocar el número de identificación del padre de los títulos a importar (este ID trae por ejemplo, una emisión y todos sus artículos).
+Para esto se puede realizar la búsqueda de identificadores de emisión para cada instancia de OLIB.
+Por defecto esta búsqueda sólo recuperara emisiones cuyos objetos asociados sean PDF's.
+También puede dar el número de un título en particular, si sólo se va a importar ese.
+
+PASO 6.
+Colocar la ruta de la carpeta con los PDF's a importar.
+Para esto utilice el botón Examinar y seleccione la carpeta de su disco que contiene los PDF's.
+
+PASO 7.
+Oprima el botón de Enviar archivos y en el campo de LOG se mostrarán los resultados de la importación; la importación puede tardar algunos minutos dependiendo del número de PDF's que se están importando y se de su tamaño.
+También se estará creando un archivo (log.txt) en la carpeta seleccionada en el Paso 5.
+
+PASO 8.
+Regrese al Paso 1 para importar más títulos o cierre la aplicación si ya terminó el proceso.
+Tenga en cuenta que sus registros no estarán disponibles en DSpace inmediatamente.
+Por defecto este proceso queda programado para correrse todas las noches.
