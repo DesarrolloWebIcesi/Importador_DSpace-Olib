@@ -1,0 +1,1403 @@
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace dspace07 /user:dspace
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones m£ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando m s de un nombre de usuario, no est n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido y vuelva a intentarlo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace dspace07 /user:dspace
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones m£ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando m s de un nombre de usuario, no est n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido y vuelva a intentarlo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace dspace07 /user:dspace
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones m£ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando m s de un nombre de usuario, no est n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido y vuelva a intentarlo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace dspace07 /user:dspace
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones m£ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando m s de un nombre de usuario, no est n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido y vuelva a intentarlo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace dspace07 /user:dspace
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones m£ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando m s de un nombre de usuario, no est n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido y vuelva a intentarlo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace dspace07 /user:dspace
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace dspace07 /user:dspace
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\rodimus.icesi.edu.co\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavareka
+
+ERROR>Error de sistema 5.
+
+ERROR>
+
+ERROR>Acceso denegado.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 353634323 /user:gavarela
+
+ERROR>Error de sistema 1326.
+
+ERROR>
+
+ERROR>Error de inicio de sesi¢n: nombre de usuario desconocido o contrase¤a incorrecta.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi¢n de red.
+
+ERROR>
+
+ERROR>Puede obtener m s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace 3536343232 /user:gavarela
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: ha sido eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o bï¿½squedas incompletas de directorios pendientes en la conexiï¿½n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: ha sido eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\rodimus.icesi.edu.co\dspace matador0524 /user:damazano
+
+ERROR>Error de sistema 5.
+
+ERROR>
+
+ERROR>Acceso denegado.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: ha sido eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: ha sido eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: ha sido eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: ha sido eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: ha sido eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace icesi23 /user:olibdspace
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace icesi23 /user:olibdspace
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace icesi23 /user:olibdspace
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace icesi123 /user:olibdspace
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace icesi123 /user:olibdspace
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>"net" no se reconoce como un comando interno o externo,
+
+ERROR>programa o archivo por lotes ejecutable.
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace icesi23 /user:olibdspace
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+null
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o bï¿½squedas incompletas de directorios pendientes en la conexiï¿½n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+ERROR>Error de sistema 1219.
+
+ERROR>
+
+ERROR>Las conexiones mï¿½ltiples para un servidor o recurso compartido compatible por el mismo usuario, usando mï¿½s de un nombre de usuario, no estï¿½n permitidas. Desconecte todas las conexiones anteriores al servidor o recursos compartido e intï¿½ntelo de nuevo.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexiï¿½n de red.
+
+ERROR>
+
+ERROR>Puede obtener mï¿½s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
