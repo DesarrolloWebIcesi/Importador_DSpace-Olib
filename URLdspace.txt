@@ -1,8 +1,8 @@
-jdbc:oracle:thin:@200.3.192.44:1521:wicesi
+jdbc:oracle:thin:@200.3.192.44:1521:wicesin
 Repositorio Biblioteca (bibdigital)
 dspace@casillero.desarrollo.icesi.edu.co
 bibdigital
-jdbc:oracle:thin:@192.168.220.20:1521:wicesi
+jdbc:oracle:thin:@192.168.220.20:1521:wicesi2
 Repositorio Desarrollo (dspace)
 dspace@casillero.desarrollo.icesi.edu.co
 bibdigital
