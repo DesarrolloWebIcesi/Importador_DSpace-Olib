@@ -286,6 +286,9 @@ public class GUI extends javax.swing.JFrame {
             String cadenaOlib = Ejecutable.getControl().getConexiónOlib();
             String cadenaDspace = Ejecutable.getControl().getConexiónDSpace();
             
+            System.out.println("cadena olb"+" "+cadenaOlib);
+            System.out.println("cadena dspace"+" "+cadenaDspace);
+            
             try {
                 valor = Ejecutable.getControl().validarDatos(idColeccion.getText(), idEmision.getText(), rutaCarpeta.getText(), cadenaOlib, cadenaDspace);
                 switch (valor) {
@@ -300,12 +303,15 @@ public class GUI extends javax.swing.JFrame {
                         break;
                     }
             } catch (SQLException ex) {
+                System.out.println("entre al catch comenzar importación");
                 JOptionPane.showMessageDialog(this, "Error de conexión. " + ex.getMessage(), "SQL Exception", JOptionPane.ERROR_MESSAGE);
                 Ejecutable.getControl().imprimirLogFisico("Error de conexión. " + ex.getMessage());
             } catch (ClassNotFoundException ex) {
                 JOptionPane.showMessageDialog(this, "Hacen falta controladores de Oracle, favor contéctese son soporte. " + ex.getMessage(), "Error de driver", JOptionPane.ERROR_MESSAGE);
                 Ejecutable.getControl().imprimirLogFisico("Hacen falta controladores de Oracle, favor contáctese son soporte" + ex.getMessage());
             }
+            
+            System.out.println("valor"+" "+valor);
             
             if(valor == 1){
                 /*Gavarela: Ya se está conectado a Samba desde la ventana pasada (AccesoServidores)
@@ -349,6 +355,7 @@ public class GUI extends javax.swing.JFrame {
         } catch (ClassNotFoundException ex) {
             JOptionPane.showMessageDialog(this, "Existe un problema con el Driver de Oracle, favor comunicarse con soporte de Biblioteca", "Error de conexión", JOptionPane.ERROR_MESSAGE);
         } catch (SQLException ex) {
+            System.out.println("entre al catch emision");
             JOptionPane.showMessageDialog(this, "Error de conexión: "+ex.getMessage(), "Error de conexión", JOptionPane.ERROR_MESSAGE);
         }
     }                                                  
@@ -363,6 +370,7 @@ public class GUI extends javax.swing.JFrame {
         } catch (ClassNotFoundException ex) {
             JOptionPane.showMessageDialog(this, "Existe un problema con el Driver de Oracle, favor comunicarse con soporte de Biblioteca", "Error de conexión", JOptionPane.ERROR_MESSAGE);
         } catch (SQLException ex) {
+            System.out.println("entre al catch coleccion");
             JOptionPane.showMessageDialog(this, "Error de conexión: "+ex.getMessage(), "Error de conexión", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_botonBuscaColeccionActionPerformed

@@ -21,6 +21,7 @@ public class Conectar {
         conn.setAutoCommit(false);
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         String consulta = "select count(*) from COLLECTION where collection_ID = " + coleccion;
+        System.out.println("validar datos dspace"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         rsetA.next();
         int filas = rsetA.getInt(1);
@@ -38,6 +39,7 @@ public class Conectar {
         conn.setAutoCommit(false);
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         String consulta = "select count(*) from titles where titleno = " + titleno;
+        System.out.println("validar datos olib"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         rsetA.next();
         int filas = rsetA.getInt(1);
@@ -54,13 +56,14 @@ public class Conectar {
         conn.setAutoCommit(false);
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         String consulta = "select count(*) from collection where name like '%" + name + "%'";
-
+        System.out.println("conectar dspace"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         rsetA.next();
         int filas = rsetA.getInt(1);
         rsetA.close();
 
         consulta = "select * from collection where name like '%" + name + "%'";
+        System.out.println("conectar dspace"+" "+consulta);
         ResultSet rset = stmt.executeQuery(consulta);
 
 
@@ -83,10 +86,13 @@ public class Conectar {
     }
 
     private static String convertToUnicodeString(String hexString) {
+        System.out.println("hexstring"+ hexString);
         StringBuffer output = new StringBuffer();
         String subStr = null;
+        System.out.println(hexString.length());
         for (int i = 0; i < hexString.length(); i = i + 2) {
             subStr = hexString.substring(i, i + 2);
+            System.out.println("substring"+subStr );
             char c = (char) Integer.parseInt(subStr, 16);
             output.append(c);
         }
@@ -104,8 +110,9 @@ public class Conectar {
 
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         //consulta (restringida a pdfs por politica de biblioteca)
-        String consulta = "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.articleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
-
+        //String consulta = "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.articleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
+        String consulta= "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
+        System.out.println("conectar olib"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         int filas = 0;
         while (rsetA.next()) {
@@ -120,16 +127,15 @@ public class Conectar {
         /*Gavarela: La consulta original sacaba todo el dublin core en una sola columna,
          * esto generaba problemas ya que el límite de retorno de un VARCHAR2 es de 4000,
          * por eso se partió el dublin core en 3 columnas, dejando la descripción como columna aparte*/
-        consulta = "SELECT DISTINCT REPLACE(o.locator, 'http://www.icesi.edu.co/esn/contenido/pdfs/', '')" +
-                ", '<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><dublin_core>' || "+
+        consulta = /*"SELECT DISTINCT REPLACE(o.locator, 'http://www.icesi.edu.co/esn/contenido/pdfs/', '')" +
+                ",'<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><dublin_core>' || "+
                 "' <dcvalue element=\"title\" qualifier=\"none\">' || t.title || decode(t.subtitle,   NULL,   NULL,   ' : ' || t.subtitle) || '</dcvalue>' ||"+
                 " decode(t.isbn,   NULL,   NULL,   ' <dcvalue element=\"identifier\" qualifier=\"isbn\">' || t.isbn || '</dcvalue>') || "+
                 "'<dcvalue element=\"identifier\" qualifier=\"other\">' || t.titleno || '</dcvalue>' || "+"olib.fbib_dc_autores(t.titleno)" +
                 ", olib.fbib_dc_abstract(t.titleno)|| "+
                 "' <dcvalue element=\"identifier\" qualifier=\"OLIB\">http://biblioteca2.icesi.edu.co/cgi-olib?infile=details.glu&loid=' || t.titleno || '</dcvalue>' ||" +
-                ", ' <dcvalue element=\"language\" qualifier=\"iso\">spa</dcvalue>' || "+
-                /*"'</dcvalue>' || "+*/
-                "' <dcvalue element=\"date\" qualifier=\"available\">' ||"+
+                "' <dcvalue element=\"language\" qualifier=\"iso\">spa</dcvalue>' || "+
+                "' <dcvalue element=\"date\" qualifier=\"available\">' || "+
                 " to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' || "+
                 "' <dcvalue element=\"date\" qualifier=\"issued\">' || to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' ||"+
                 " olib.fbib_dc_altertitulo(t.titleno) || decode(t.isbn,   NULL,   NULL,   '<dcvalue element=\"pubplace\" qualifier=\"none\">' || tp.pubplace || '</dcvalue>') ||"+
@@ -139,14 +145,15 @@ public class Conectar {
                 " WHERE t_o.titleno = t.titleno" +
                 " AND t_o.objectno = o.objectno" +
                 " AND t.mediatp = m.mediatp" +
-                " AND t.articleno = "+ articleno +
+                //" AND t.articleno = "+ articleno +
+                " AND t.titleno = "+ articleno +
                 " AND tp.titleno = "+ articleno +
                 " AND LOWER(o.locator) LIKE '%.pdf'" +
-                " UNION" +
+                " UNION" +*/
                 " SELECT DISTINCT REPLACE(o.locator, 'http://www.icesi.edu.co/esn/contenido/pdfs/', '')" +
                 ", '<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><dublin_core>' || ' <dcvalue element=\"title\" qualifier=\"none\">' || t.title || decode(t.subtitle,   NULL,   NULL,   ' : ' || t.subtitle) || '</dcvalue>' || decode(t.isbn,   NULL,   NULL,   ' <dcvalue element=\"identifier\" qualifier=\"isbn\">' || t.isbn || '</dcvalue>') || '<dcvalue element=\"identifier\" qualifier=\"other\">' || t.titleno || '</dcvalue>' || olib.fbib_dc_autores(t.titleno)" +
                 ", olib.fbib_dc_abstract(t.titleno) || ' <dcvalue element=\"identifier\" qualifier=\"OLIB\">http://biblioteca2.icesi.edu.co/cgi-olib?infile=details.glu&loid=' || t.titleno||'</dcvalue>' ||" +
-                ", ' <dcvalue element=\"language\" qualifier=\"iso\">es</dcvalue>' || '</dcvalue>' || ' <dcvalue element=\"date\" qualifier=\"available\">' || to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' || ' <dcvalue element=\"date\" qualifier=\"issued\">' || to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' || olib.fbib_dc_altertitulo(t.titleno) || decode(t.isbn,   NULL,   NULL,   '<dcvalue element=\"pubplace\" qualifier=\"none\">' || tp.pubplace || '</dcvalue>') || olib.fbib_dc_publicador(t.titleno) || olib.fbib_dc_subject(t.titleno) || olib.fbib_dc_sponsors(t.titleno) || olib.fbib_dc_type(t.titleno) || ' </dublin_core>' dc_info" +
+                "'<dcvalue element=\"language\" qualifier=\"iso\">es</dcvalue>' || '</dcvalue>' || ' <dcvalue element=\"date\" qualifier=\"available\">' || to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' || ' <dcvalue element=\"date\" qualifier=\"issued\">' || to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' || olib.fbib_dc_altertitulo(t.titleno) || decode(t.isbn,   NULL,   NULL,   '<dcvalue element=\"pubplace\" qualifier=\"none\">' || tp.pubplace || '</dcvalue>') || olib.fbib_dc_publicador(t.titleno) || olib.fbib_dc_subject(t.titleno) || olib.fbib_dc_sponsors(t.titleno) || olib.fbib_dc_type(t.titleno) || ' </dublin_core>' dc_info" +
                 " FROM titleobjs t_o, titles t, objects o, mediatps m, titlepub tp" +
                 " WHERE t_o.titleno = t.titleno" +
                 " AND t_o.objectno = o.objectno" +
@@ -154,29 +161,38 @@ public class Conectar {
                 " AND t.titleno = "+ articleno +
                 " AND tp.titleno = "+ articleno +
                 " AND LOWER(o.locator) LIKE '%.pdf'";
+        
+        System.out.println(consulta);
 
         ResultSet rset = stmt.executeQuery(consulta);
 
-        //System.out.println(filas);
+        System.out.println("filas"+" "+filas);
         String dir[] = new String[filas];
         String dublin[] = new String[filas];
         int cont = 0;
         while (rset.next()) {
-
+          
             //Reemplasar caracter '%' por 'Porciento' y '&' por 'y' (causan problemas en la importacion)
-            String dc = rset.getString(2);
+            /*String dc = rset.getString(2);
             dc += rset.getString(3);
-            dc += rset.getString(4);
+            dc += rset.getString(4);*/
+            
+            String dc = rset.getString(1);
+            dc += rset.getString(2);
+            dc += rset.getString(3);
+            
 
             //AQUI MACHETE! :)  EN CASO DE QUE LA CONSULTA RETORNE UNA CADENA HEXADECIMAL
-            if (!dc.startsWith("<")) {
+            /*if (!dc.startsWith("<")) {
                 int a = dc.indexOf("x");
                 if (a != -1) {
                     dc = dc.substring(a + 1);
                     dc = convertToUnicodeString(dc);
                 }
-            }
-
+            }*/
+            
+            System.out.println("continuar dublin core");
+            
             dc = dc.replace('&', 'y');
             dc = dc.replace("%", "porciento");
 

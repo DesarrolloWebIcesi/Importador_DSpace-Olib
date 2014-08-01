@@ -1401,3 +1401,651 @@ OUTPUT>
 ExitValue: 0
 
 
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace crisco8031 /user:cdcriollo
+
+ERROR>Error de sistema 5.
+
+ERROR>
+
+ERROR>Acceso denegado.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace crisco80 /user:cdcriollo
+
+ERROR>Error de sistema 86.
+
+ERROR>
+
+ERROR>La contrase�a de red especificada no es v�lida.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace crisco80 /user:cdcriollo
+
+ERROR>Error de sistema 86.
+
+ERROR>
+
+ERROR>La contrase�a de red especificada no es v�lida.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o b�squedas incompletas de directorios pendientes en la conexi�n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o b�squedas incompletas de directorios pendientes en la conexi�n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o b�squedas incompletas de directorios pendientes en la conexi�n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+

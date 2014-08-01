@@ -49,6 +49,9 @@ public class Importacion {
                         String dublinCore = dublin[i].trim();
                         //comentar para producción
                         
+                        System.out.println("url"+url);
+                        System.out.println("dublin core"+dublinCore);
+                        
                         // tener en cuenta que la URL debe ser web o fisica y debe terminar en .pdf
                         StringTokenizer token = new StringTokenizer(url,"/\\");
                         int val = token.countTokens();
