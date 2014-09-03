@@ -2049,3 +2049,1873 @@ OUTPUT>
 ExitValue: 0
 
 
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.28\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace criscoq /user:cdcriollo
+
+ERROR>Error de sistema 1326.
+
+ERROR>
+
+ERROR>Error de inicio de sesi�n: nombre de usuario desconocido o contrase�a incorrecta.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace matador0524 /user:damanzano
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o b�squedas incompletas de directorios pendientes en la conexi�n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o b�squedas incompletas de directorios pendientes en la conexi�n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Hay archivos abiertos y/o b�squedas incompletas de directorios pendientes en la conexi�n con Y:.
+
+OUTPUT>
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cd criollo
+
+ERROR>La sintaxis de este comando es:
+
+ERROR>
+
+ERROR>NET USE
+
+ERROR>[dispositivo | *] [\\equipo\recursoCompartido[\volumen] [contrase�a | *]]
+
+ERROR>        [/USER:[dominio\]usuario]
+
+ERROR>        [/USER:[dominioPunteado\]usuario]
+
+ERROR>        [/USER:[usuario@dominio punteado]
+
+ERROR>        [/SMARTCARD]
+
+ERROR>        [/SAVECRED]
+
+ERROR>        [[/DELETE] | [/PERSISTENT:{YES | NO}]]
+
+ERROR>
+
+ERROR>NET USE {dispositivo | *} [contrase�a | *] /HOME
+
+ERROR>
+
+ERROR>NET USE [/PERSISTENT:{YES | NO}]
+
+ERROR>
+ExitValue: 1
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+ERROR>No se ha encontrado la conexi�n de red.
+
+ERROR>
+
+ERROR>Puede obtener m�s ayuda con el comando NET HELPMSG 2250.
+
+ERROR>
+ExitValue: 2
+
+
+Execing cmd.exe /C net use Y: \\192.168.220.27\dspace crisco /user:cdcriollo
+
+OUTPUT>Se ha completado el comando correctamente.
+
+OUTPUT>
+ExitValue: 0
+
+
+Execing cmd.exe /C net use /y Y: /delete
+
+OUTPUT>Y: se ha eliminado.
+
+OUTPUT>
+ExitValue: 0
+
+
