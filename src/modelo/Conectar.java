@@ -21,7 +21,6 @@ public class Conectar {
         conn.setAutoCommit(false);
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         String consulta = "select count(*) from COLLECTION where collection_ID = " + coleccion;
-        //System.out.println("validar datos dspace"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         rsetA.next();
         int filas = rsetA.getInt(1);
@@ -39,7 +38,6 @@ public class Conectar {
         conn.setAutoCommit(false);
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         String consulta = "select count(*) from titles where titleno = " + titleno;
-        //System.out.println("validar datos olib"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         rsetA.next();
         int filas = rsetA.getInt(1);
@@ -56,14 +54,12 @@ public class Conectar {
         conn.setAutoCommit(false);
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         String consulta = "select count(*) from collection where name like '%" + name + "%'";
-        //System.out.println("conectar dspace"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         rsetA.next();
         int filas = rsetA.getInt(1);
         rsetA.close();
 
         consulta = "select * from collection where name like '%" + name + "%'";
-        //System.out.println("conectar dspace"+" "+consulta);
         ResultSet rset = stmt.executeQuery(consulta);
         
         int id[] = new int[filas];
@@ -109,7 +105,6 @@ public class Conectar {
         //consulta (restringida a pdfs por politica de biblioteca)
         //String consulta = "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.articleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
         String consulta= "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
-        //System.out.println("conectar olib"+" "+consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         int filas = 0;
         while (rsetA.next()) {
@@ -183,11 +178,8 @@ public class Conectar {
                 " AND tp.titleno = "+ articleno +
                 " AND LOWER(o.locator) LIKE '%.pdf'";
         
-        System.out.println(consulta);
-
         ResultSet rset = stmt.executeQuery(consulta);
 
-        //System.out.println("filas"+" "+filas);
         String dir[] = new String[filas];
         String dublin[] = new String[filas];
         int cont = 0;
@@ -197,16 +189,11 @@ public class Conectar {
             /*String dc = rset.getString(2);
             dc += rset.getString(3);
             dc += rset.getString(4);*/
-            
-            /*String dc = rset.getString(1);
-            dc += rset.getString(2);
-            dc += rset.getString(3);*/
-            
+             
             String dc= rset.getString(2);
             dc+= rset.getString(3);
-            //dc+= rset.getString(4);
-            
-
+     
+           
             //AQUI MACHETE! :)  EN CASO DE QUE LA CONSULTA RETORNE UNA CADENA HEXADECIMAL
             /*if (!dc.startsWith("<")) {
                 int a = dc.indexOf("x");

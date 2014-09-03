@@ -57,7 +57,6 @@ public class RunCommand {
             }*/
             
             Runtime rt = Runtime.getRuntime();
-            //System.out.println("Execing " + cmd[0] + " " + cmd[1] + " " + cmd[2]);
             ret += "Execing " + cmd[0] + " " + cmd[1] + " " + cmd[2] +"\r\n";
             
             Process proc = rt.exec(cmd);
@@ -79,7 +78,6 @@ public class RunCommand {
             ret += errorGobbler.getRetorno();
             ret += outputGobbler.getRetorno();
             
-            //System.out.println("ExitValue: " + exitVal);
             ret += "ExitValue: " + exitVal + "\r\n";
             
             
