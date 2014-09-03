@@ -135,7 +135,10 @@ public class Control {
 	
         String emision = gui.getIdEmision().getText();
         
-        String carpeta = cortarCadena(servidor);  //nombre de la instancia de Dsapce a usar (coincide con el nombre de la carpera en el servidor)
+        //String carpeta = cortarCadena(servidor);  //nombre de la instancia de Dsapce a usar (coincide con el nombre de la carpera en el servidor)
+        //String instancia_bibdigital= "bibdigital";
+        //System.out.println("carpeta"+carpeta);
+        String carpeta= "bibdigital";
         String[] tmp = (String[])retorno[0]; // lista de los nombres de archivos
         int valor = 10;  //las carpetas toman nombres 10, 11, 12, 13, etc con 10 como el valor inicial
         RunCommand comando = new RunCommand();
@@ -144,12 +147,14 @@ public class Control {
         int exitVal;
         
         // 1 borrar la capeta de la colección en el servidor(en caso de ya existir):  Rmdir /s /q [nombre carpeta]
+        //instruccion[0] = "Rmdir /s /q Y:\\"+carpeta+"\\OLIB\\"+emision;
         instruccion[0] = "Rmdir /s /q Y:\\"+carpeta+"\\OLIB\\"+emision;
         exitVal = comando.comando(instruccion);
         retorno = comando.getSalida();
         imprimirLogFisico(retorno);
         
         // 2 crear la carpeta de la coleccion: mkdir [nombre carpeta]
+        //instruccion[0] = "mkdir Y:\\"+carpeta+"\\OLIB\\"+emision;
         instruccion[0] = "mkdir Y:\\"+carpeta+"\\OLIB\\"+emision;
         exitVal = comando.comando(instruccion);
         retorno = comando.getSalida();
@@ -159,6 +164,7 @@ public class Control {
         comando.setSalida("");
         
         // 3 copiar todo el contenido local al remoto: Xcopy /s /e [origen local] [destino remoto]
+        //instruccion[0] = "Xcopy /s /e "+directorio.getAbsolutePath()+"\\"+emision+" Y:\\"+carpeta+"\\OLIB\\"+emision;
         instruccion[0] = "Xcopy /s /e "+directorio.getAbsolutePath()+"\\"+emision+" Y:\\"+carpeta+"\\OLIB\\"+emision;
         exitVal = comando.comando(instruccion);
         retorno = comando.getSalida();

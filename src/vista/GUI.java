@@ -175,8 +175,8 @@ public class GUI extends javax.swing.JFrame {
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("LOG de la importación"));
 
-        log.setColumns(20);
         log.setEditable(false);
+        log.setColumns(20);
         log.setRows(5);
         jScrollPane1.setViewportView(log);
 
@@ -261,6 +261,9 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jPanel2.getAccessibleContext().setAccessibleName("ID Titulo en OLIB");
+        jPanel2.getAccessibleContext().setAccessibleDescription("");
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -285,7 +288,7 @@ public class GUI extends javax.swing.JFrame {
             
             String cadenaOlib = Ejecutable.getControl().getConexiónOlib();
             String cadenaDspace = Ejecutable.getControl().getConexiónDSpace();
-            
+           
             try {
                 valor = Ejecutable.getControl().validarDatos(idColeccion.getText(), idEmision.getText(), rutaCarpeta.getText(), cadenaOlib, cadenaDspace);
                 switch (valor) {
