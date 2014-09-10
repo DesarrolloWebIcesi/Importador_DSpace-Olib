@@ -171,7 +171,7 @@ public class Conectar {
                 +" olib.fbib_dc_type_title(t.titleno) || "
                 +"'<dcvalue element=\"format\" qualifier=\"mimetype\">Application PDF</dcvalue>' || "
                 +"'<dcvalue element=\"publisher\" qualifier=\"none\">Universidad Icesi</dcvalue>' || "
-                +" olib.fbibbus_dc_pubplace(t.titleno) || "
+                +" olib.fbib_dc_pubplace(t.titleno) || "
                 +" olib.fbib_dc_format_extent(t.titleno) dc_info1 , "
                 +" olib.fbib_dc_abstract(t.titleno) || "
                 + "' </dublin_core>' " +
