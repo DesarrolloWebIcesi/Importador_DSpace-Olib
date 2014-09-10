@@ -1,17 +1,21 @@
 package modelo;
 
 import java.sql.*;
+import javax.swing.JOptionPane;
+import vista.*;
 
 public class Conectar {
 
     private String usuario;
     private String contraseña;
     private String url;
+    public static String[] archivos;
 
     public Conectar(String usuario, String contraseña) {
         this.contraseña = contraseña;
         this.usuario = usuario;
     }
+    
     //TODO: poner en la documetacion técnica que en la tabla DCVALUE el campo TEXT_VALUE se debe agrandar a 4000 caracteres por seguridad.
     public boolean validarDatosDspace(String coleccion, String usuDspace, String passDspace, String urlDspace) throws ClassNotFoundException, SQLException {
         // valida que los datos sean validos es decir que existan
@@ -92,7 +96,7 @@ public class Conectar {
         return output.toString();
     }
 
-    public Object[] conectarOlib(String url, String articleno) throws ClassNotFoundException, SQLException {
+    public Object[] conectarOlib(String url, String titleno) throws ClassNotFoundException, SQLException {
         // retorna un arreglo con 2 arreglos en su interior [  [arreglo 1] , [arreglo 2]  ]
         // arreglo 1: arreglo de cadenas [nombres de archivo]
         // arreglo 2: arreglo de cadenas [cadenas con dublin core]
@@ -103,8 +107,9 @@ public class Conectar {
 
         Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
         //consulta (restringida a pdfs por politica de biblioteca)
-        //String consulta = "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.articleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
-        String consulta= "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
+        //String consulta= "select count ('a') from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf' UNION select count(*) from titleobjs t_o, titles t, objects o, mediatps m where t_o.titleno = t.titleno and t_o.objectno = o.objectno and t.mediatp = m.mediatp and t.titleno = " + articleno + " and lower(o.locator) like '%.pdf'";
+        String consulta= "select count ('a') from  titles t, mediatps m where  t.mediatp = m.mediatp and t.titleno = " + titleno + " UNION select count(*) from titles t,  mediatps m where t.mediatp = m.mediatp and t.titleno = " + titleno + " ";
+        //System.out.println("conectarOlib"+ consulta);
         ResultSet rsetA = stmt.executeQuery(consulta);
         int filas = 0;
         while (rsetA.next()) {
@@ -119,7 +124,7 @@ public class Conectar {
         /*Gavarela: La consulta original sacaba todo el dublin core en una sola columna,
          * esto generaba problemas ya que el límite de retorno de un VARCHAR2 es de 4000,
          * por eso se partió el dublin core en 3 columnas, dejando la descripción como columna aparte*/
-        consulta = /*"SELECT DISTINCT REPLACE(o.locator, 'http://www.icesi.edu.co/esn/contenido/pdfs/', '')" +
+           /*"SELECT DISTINCT REPLACE(o.locator, 'http://www.icesi.edu.co/esn/contenido/pdfs/', '')" +
                 ",'<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><dublin_core>' || "+
                 "' <dcvalue element=\"title\" qualifier=\"none\">' || t.title || decode(t.subtitle,   NULL,   NULL,   ' : ' || t.subtitle) || '</dcvalue>' ||"+
                 " decode(t.isbn,   NULL,   NULL,   ' <dcvalue element=\"identifier\" qualifier=\"isbn\">' || t.isbn || '</dcvalue>') || "+
@@ -154,44 +159,43 @@ public class Conectar {
                 " AND t.titleno = "+ articleno +
                 " AND tp.titleno = "+ articleno +
                 " AND LOWER(o.locator) LIKE '%.pdf'";*/
-        
-                " SELECT DISTINCT REPLACE(o.locator, 'http://www.icesi.edu.co/esn/contenido/pdfs/', '')" +
-                ",'<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><dublin_core>' || ' <dcvalue element=\"title\" qualifier=\"none\">' || t.title || decode(t.subtitle,   NULL,   NULL,   ' : ' || t.subtitle) || '</dcvalue>' || decode(t.isbn,   NULL,   NULL,   ' <dcvalue element=\"identifier\" qualifier=\"isbn\">' || t.isbn || '</dcvalue>') || '<dcvalue element=\"identifier\" qualifier=\"other\">' || t.titleno || '</dcvalue>' || olib.fbib_dc_autores(t.titleno)" +
+                
+                consulta =  " SELECT DISTINCT " +
+                "'<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><dublin_core>' || ' <dcvalue element=\"title\" qualifier=\"none\">' || t.title || decode(t.subtitle,   NULL,   NULL,   ' : ' || t.subtitle) || '</dcvalue>' || decode(t.isbn,   NULL,   NULL,   ' <dcvalue element=\"identifier\" qualifier=\"isbn\">' || t.isbn || '</dcvalue>') || '<dcvalue element=\"identifier\" qualifier=\"other\">' || t.titleno || '</dcvalue>' || olib.fbib_dc_autores(t.titleno)" +
                 " || ' <dcvalue element=\"identifier\" qualifier=\"OLIB\">http://biblioteca2.icesi.edu.co/cgi-olib?oid=' || t.titleno||'</dcvalue>' ||" +
                 "'<dcvalue element=\"language\" qualifier=\"iso\">spa</dcvalue>' || ' <dcvalue element=\"date\" qualifier=\"available\">' || to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' || ' <dcvalue element=\"date\" qualifier=\"issued\">' || to_char(nvl(olib.fbibbus_fecha_pub(t.titleno),   sysdate),   'yyyy-mm-dd') || '</dcvalue>' || olib.fbib_dc_altertitulo(t.titleno) || decode(t.isbn,   NULL,   NULL,   '<dcvalue element=\"pubplace\" qualifier=\"none\">' || tp.pubplace || '</dcvalue>') || olib.fbib_dc_subject(t.titleno) || "
                 +"'<dcvalue element=\"format\" qualifier=\"none\">PDF</dcvalue>' || '<dcvalue element=\"format\" qualifier=\"medium\">Digital</dcvalue>' || '<dcvalue element=\"relation\" qualifier=\"hasversion\">publishedVersion</dcvalue>' || "
                 +"'<dcvalue element=\"coverage\" qualifier=\"none\">Cali de Lat: 03 24 00 N degrees minutes Lat: 3.4000 decimal degrees Long: 076 30 00 W degrees minutes Long: -76.5000 decimal degrees.</dcvalue>' || "
                 +"'<dcvalue element=\"rights\" qualifier=\"accessRights\">openAccess</dcvalue>' || "
-                +" olib.fbib_dc_contributors(t.titleno) || olib.fbib_dc_departament(t.titleno) dc_info , "
+                +" olib.fbib_dc_contributors(t.titleno) || olib.fbib_dc_departament(t.titleno) || olib.fbib_dc_faculty(t.titleno) dc_info , "
                 +" olib.fbib_dc_type_title(t.titleno) || "
                 +"'<dcvalue element=\"format\" qualifier=\"mimetype\">Application PDF</dcvalue>' || "
                 +"'<dcvalue element=\"publisher\" qualifier=\"none\">Universidad Icesi</dcvalue>' || "
                 +" olib.fbibbus_dc_pubplace(t.titleno) || "
-                +" olib.fbib_dc_format_extent(t.titleno) || "
+                +" olib.fbib_dc_format_extent(t.titleno) dc_info1 , "
                 +" olib.fbib_dc_abstract(t.titleno) || "
-                + "' </dublin_core>' dc_info1 " +
-                " FROM titleobjs t_o, titles t, objects o, mediatps m, titlepub tp" +
-                " WHERE t_o.titleno = t.titleno" +
-                " AND t_o.objectno = o.objectno" +
-                " AND t.mediatp = m.mediatp" +
-                " AND t.titleno = "+ articleno +
-                " AND tp.titleno = "+ articleno +
-                " AND LOWER(o.locator) LIKE '%.pdf'";
-        
+                + "' </dublin_core>' " +
+                " FROM  titles t,  mediatps m, titlepub tp" +
+                " WHERE t.mediatp = m.mediatp" +
+                " AND t.titleno = "+ titleno +
+                " AND tp.titleno = "+ titleno ;
+               
+                  
+        //System.out.println(consulta);
         ResultSet rset = stmt.executeQuery(consulta);
 
         String dir[] = new String[filas];
         String dublin[] = new String[filas];
         int cont = 0;
         while (rset.next()) {
-          
-            //Reemplasar caracter '%' por 'Porciento' y '&' por 'y' (causan problemas en la importacion)
+         
             /*String dc = rset.getString(2);
             dc += rset.getString(3);
             dc += rset.getString(4);*/
              
-            String dc= rset.getString(2);
-            dc+= rset.getString(3);
+            String dc= rset.getString(1);
+            dc+= rset.getString(2);
+            dc += rset.getString(3);
      
            
             //AQUI MACHETE! :)  EN CASO DE QUE LA CONSULTA RETORNE UNA CADENA HEXADECIMAL
@@ -203,15 +207,22 @@ public class Conectar {
                 }
             }*/
             
+            //Reemplasar caracter '%' por 'Porciento' y '&' por 'y' (causan problemas en la importacion)
             //dc = dc.replace("&", "&amp;");
             //dc = dc.replace("%", "porciento");
 
-            dir[cont] = rset.getString(1);
+            //dir[cont] = rset.getString(1);
             dublin[cont] = dc;
             cont++;
         }
         stmt.close();
-
+        
+       /* Se recorre el arreglo de archivos de tipo pdf que contiene el directorio */
+         for(int i=0; i< archivos.length; i++)
+         {
+             dir[i]= archivos[i];
+         }
+        
         Object[] resultado = new Object[2];
         resultado[0] = dir;
         resultado[1] = dublin;

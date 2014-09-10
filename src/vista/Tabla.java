@@ -42,17 +42,15 @@ public class Tabla {
                     "AND LOWER(ob.locator) LIKE '%.pdf' " +
                     "ORDER BY 2";*/
             
+             
             // Se modifico la consulta para que solo busque titulos qie sean tesis, trabajos de grado o tesis doctoral
-           consulta="SELECT t1.title, t1.titleno, '' " +
-            "FROM TITLES t1, TITLEOBJS tio, OBJECTS ob, MEDIATPS mtp " +
+            consulta="SELECT t1.title, t1.titleno, mtp.MEDIATPLD Categoria " +
+            "FROM TITLES t1, MEDIATPS mtp " +
             "WHERE LOWER(t1.title) LIKE '%"+cadena+"%' " +
             "AND t1.mediatp = mtp.MEDIATP " +
-            "AND tio.objectno = ob.objectno " +
-            "AND tio.titleno = t1.titleno " +
             "AND t1.mediatp IN('TDOC', 'TESIS', 'TG') " +
-            "AND LOWER(ob.locator) LIKE '%.pdf' " +
             "ORDER BY 2";
-            
+             
         }
         this.usuario=usuario;
         this.contraseña=contraseña;

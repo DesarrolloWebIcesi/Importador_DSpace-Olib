@@ -13,12 +13,14 @@ import java.io.*;
 import java.sql.SQLException;
 import javax.swing.*;
 import java.util.*;
+import modelo.Conectar;
+import vista.Filtro;
 
 /**
  *
  * @author  admin
  */
-public class GUI extends javax.swing.JFrame {
+public class GUI extends javax.swing.JFrame  {
     
     private String usuarioDspace;
     private String usuarioOlib;
@@ -30,6 +32,7 @@ public class GUI extends javax.swing.JFrame {
     private List nomUrlOlib;
     private List epersonDspace;
     private List ususDspace;
+    public  String [] archivos;
     
     /** Creates new form GUI */
     public GUI(List urlOlib, List urlDspace, List nomUrlOlib, List nomUrlDspace, List epersonDspace, List ususDspace) {
@@ -39,7 +42,7 @@ public class GUI extends javax.swing.JFrame {
         this.nomUrlOlib = nomUrlOlib;
         this.epersonDspace = epersonDspace;
         this.ususDspace = ususDspace;
-        
+      
         initComponents();
         
         //Gavarela: por comodidad, la ventana se pone en el centro
@@ -116,7 +119,8 @@ public class GUI extends javax.swing.JFrame {
                 .add(nombreDSpace, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("ID de la emisión en OLIB"));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("ID Titulo en OLIB"));
+        jPanel2.setName(""); // NOI18N
 
         botonBuscarEmision.setText("Buscar");
         botonBuscarEmision.addActionListener(new java.awt.event.ActionListener() {
@@ -261,7 +265,7 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.getAccessibleContext().setAccessibleName("ID Titulo en OLIB");
+        jPanel2.getAccessibleContext().setAccessibleName("ID Titulo OLIB");
         jPanel2.getAccessibleContext().setAccessibleDescription("");
 
         pack();
@@ -382,9 +386,19 @@ public class GUI extends javax.swing.JFrame {
             break;
             }
 	} while (returnVal == JFileChooser.CANCEL_OPTION);
+        
 	// Directorio de trabajo
 	File directorio = fc.getSelectedFile();
         getRutaCarpeta().setText(directorio.getAbsolutePath());
+        // Se obtiene la lista de archivos del directorio cuya extensión sea pdf
+        String[] listaArchivos =directorio.list(new Filtro(".pdf"));
+        
+        try{
+         Conectar.archivos= listaArchivos;
+        }catch(NullPointerException ex){
+          JOptionPane.showMessageDialog(this, "La carpeta debe contener al menos un archivo pdf", "Error de directorio" ,JOptionPane.ERROR_MESSAGE);
+        }
+       
     }//GEN-LAST:event_botonExaminarCarpetasActionPerformed
 
     private void itemSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemSalirActionPerformed
@@ -442,7 +456,7 @@ public class GUI extends javax.swing.JFrame {
     public void setLog(javax.swing.JTextArea log) {
         this.log = log;
     }
-
+    
     public javax.swing.JTextField getRutaCarpeta() {
         return rutaCarpeta;
     }
@@ -537,5 +551,7 @@ public class GUI extends javax.swing.JFrame {
     public javax.swing.JTextField getNombreOlib() {
         return nombreOlib;
     }
+
+    
     
 }
