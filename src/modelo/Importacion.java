@@ -123,7 +123,7 @@ public class Importacion {
 	        boolean success = archivo.createNewFile();
 	        if (success) {
 	            //Escribe en el archivo
-	            BufferedWriter out = new BufferedWriter(new FileWriter(archivo.getAbsolutePath()));
+	            BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(archivo.getAbsolutePath()), "UTF-8"));
 	            out.write(texto);
 	            out.close();
 	            return true;

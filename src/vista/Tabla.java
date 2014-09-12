@@ -4,6 +4,8 @@ import javax.swing.*;
 import javax.swing.JTable.*;
 import java.awt.*; 
 import java.sql.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Tabla {
     private String cadena;
@@ -14,7 +16,7 @@ public class Tabla {
     private String contraseña;
     private String url;
 
-    public Tabla(String cadena, String usuario, String contraseña, String url, String tipo) throws ClassNotFoundException, SQLException{
+    public Tabla(String cadena, String usuario, String contraseña, String url, String tipo) {
         this.cadena = cadena;
         if(tipo.equals("DSPACE")){
             // consulta en DSpace
@@ -55,9 +57,17 @@ public class Tabla {
         this.usuario=usuario;
         this.contraseña=contraseña;
         this.url = url;
-        JDBCAdapter jjbca = new JDBCAdapter(url,"oracle.jdbc.driver.OracleDriver",usuario,contraseña);
-	jjbca.executeQuery(consulta);
-	table = new JTable(jjbca);
+        JDBCAdapter jjbca;
+        try {
+            jjbca = new JDBCAdapter(url,"oracle.jdbc.driver.OracleDriver",usuario,contraseña);
+            jjbca.executeQuery(consulta);
+            table = new JTable(jjbca);
+        } catch (ClassNotFoundException ex) {
+            JOptionPane.showMessageDialog(frame, "Existe un problema con el Driver de Oracle, favor comunicarse con soporte de Biblioteca", "Error de conexión", JOptionPane.ERROR_MESSAGE);
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(frame, "Error de conexión: "+ex.getMessage(), "Error de conexión", JOptionPane.ERROR_MESSAGE);
+        }
+	
     }
 
     /*public static void main(String[] args) {
