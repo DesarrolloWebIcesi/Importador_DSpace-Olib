@@ -1,4 +1,4 @@
-jdbc:oracle:thin:@200.3.192.45:1551:olib820
+jdbc:oracle:thin:@200.3.192.45:1551:OLIB820
 Olib Biblioteca
 jdbc:oracle:thin:@192.168.220.20:1521:BIBLIO
 Olib Desarrollo
