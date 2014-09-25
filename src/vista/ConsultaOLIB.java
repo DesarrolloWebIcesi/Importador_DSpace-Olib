@@ -56,7 +56,7 @@ public class ConsultaOLIB extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextArea1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Buscar emisión en OLIB");
+        setTitle("Buscar titulo en OLIB");
         setAlwaysOnTop(true);
         setLocationByPlatform(true);
         setResizable(false);
@@ -179,8 +179,6 @@ public class ConsultaOLIB extends javax.swing.JFrame {
                 .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel1.getAccessibleContext().setAccessibleName("Buscar Titulo");
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -196,10 +194,10 @@ public class ConsultaOLIB extends javax.swing.JFrame {
         int fila = tabla.getSelectedRow();
         int columna = tabla.getSelectedColumn();
         if(fila == -1 || columna == -1){
-            JOptionPane.showMessageDialog(this, "Debe seleccionar una emisión");
+            JOptionPane.showMessageDialog(this, "Debe seleccionar un titulo");
         }else{
             if(tabla.getValueAt(fila,columna) == ""){
-                JOptionPane.showMessageDialog(this, "Debe seleccionar una emisión");
+                JOptionPane.showMessageDialog(this, "Debe seleccionar un titulo");
             }else{
                 Ejecutable.getControl().getGui().getIdEmision().setText((String)tabla.getValueAt(fila,1));
                 Ejecutable.getControl().getGui().setVisible(true);

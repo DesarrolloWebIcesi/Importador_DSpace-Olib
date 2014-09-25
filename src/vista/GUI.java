@@ -300,7 +300,7 @@ public class GUI extends javax.swing.JFrame  {
                         JOptionPane.showMessageDialog(this, "El ID de colección ingresada no existe en " + nomUrlDspace.get(urlDspace.indexOf(cadenaDspace)), "Colección no valida", JOptionPane.INFORMATION_MESSAGE);
                         break;
                     case 4:
-                        JOptionPane.showMessageDialog(this, "El ID de emisión ingresada no existe en " + nomUrlDspace.get(urlDspace.indexOf(cadenaDspace)), "Emisión no valida", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(this, "El ID del titulo ingresado no existe en " + nomUrlDspace.get(urlDspace.indexOf(cadenaDspace)), "Titulo no valido", JOptionPane.INFORMATION_MESSAGE);
                         break;
                     case 2:
                         JOptionPane.showMessageDialog(this, "La ruta de carpeta especificada no es valida", "Ruta no valida", JOptionPane.INFORMATION_MESSAGE);
@@ -310,8 +310,8 @@ public class GUI extends javax.swing.JFrame  {
                 JOptionPane.showMessageDialog(this, "Error de conexión. " + ex.getMessage(), "SQL Exception", JOptionPane.ERROR_MESSAGE);
                 Ejecutable.getControl().imprimirLogFisico("Error de conexión. " + ex.getMessage());
             } catch (ClassNotFoundException ex) {
-                JOptionPane.showMessageDialog(this, "Hacen falta controladores de Oracle, favor contéctese son soporte. " + ex.getMessage(), "Error de driver", JOptionPane.ERROR_MESSAGE);
-                Ejecutable.getControl().imprimirLogFisico("Hacen falta controladores de Oracle, favor contáctese son soporte" + ex.getMessage());
+                JOptionPane.showMessageDialog(this, "Hacen falta controladores de Oracle, favor contéctese con soporte. " + ex.getMessage(), "Error de driver", JOptionPane.ERROR_MESSAGE);
+                Ejecutable.getControl().imprimirLogFisico("Hacen falta controladores de Oracle, favor contáctese con soporte" + ex.getMessage());
             }
             
             if(valor == 1){
