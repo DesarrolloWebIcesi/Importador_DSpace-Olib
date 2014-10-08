@@ -45,21 +45,23 @@ public class Importacion {
                 if (success) {
                     for (int i = 0; i < dir.length; i++) {
                         // creacion de estructura para dspace
-                        String url = dir[i];
+                        //String url = dir[i];
+                        String nombre= dir[i];
                         String dublinCore = dublin[i].trim();
+                     
                         //comentar para producción
-                        
                         // tener en cuenta que la URL debe ser web o fisica y debe terminar en .pdf
-                        StringTokenizer token = new StringTokenizer(url,"/\\");
+                        
+                        /*StringTokenizer token = new StringTokenizer(url,"/\\");
                         int val = token.countTokens();
                         String nombre = "";
                         while(val != 0){
                             nombre = token.nextToken().trim();
                             val--;
-                        }
+                        }*/
                         File elPdf = new File(directorio+"/"+nombre);
                         if(elPdf.exists()){
-                            Ejecutable.getControl().imprimirLogFisico("- Archivo "+elPdf.getName()+" encontrado");
+                            //Ejecutable.getControl().imprimirLogFisico("- Archivo "+elPdf.getName()+" encontrado");
                             newDir = new File(directorio.getAbsolutePath()+"/"+coleccion+"/"+cont++);
                             //Crea el directorio
                             success = newDir.mkdir();
@@ -121,7 +123,7 @@ public class Importacion {
 	        boolean success = archivo.createNewFile();
 	        if (success) {
 	            //Escribe en el archivo
-	            BufferedWriter out = new BufferedWriter(new FileWriter(archivo.getAbsolutePath()));
+	            BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(archivo.getAbsolutePath()), "UTF-8"));
 	            out.write(texto);
 	            out.close();
 	            return true;

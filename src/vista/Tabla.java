@@ -4,6 +4,8 @@ import javax.swing.*;
 import javax.swing.JTable.*;
 import java.awt.*; 
 import java.sql.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Tabla {
     private String cadena;
@@ -14,7 +16,7 @@ public class Tabla {
     private String contraseña;
     private String url;
 
-    public Tabla(String cadena, String usuario, String contraseña, String url, String tipo) throws ClassNotFoundException, SQLException{
+    public Tabla(String cadena, String usuario, String contraseña, String url, String tipo) {
         this.cadena = cadena;
         if(tipo.equals("DSPACE")){
             // consulta en DSpace
@@ -23,7 +25,7 @@ public class Tabla {
             // consulta en Olib
             //Gavarela: se están subiendo artículos de seriadas a DSpace, por lo que hay que comentar la condición que las excluye
             //consulta = "select art.title ARTICULO, emi.titleno ID, emi.title EMISION from titles art, titles emi, titleobjs t_o, objects o, mediatps m  where art.articleno = emi.titleno and emi.articleno is not null and lower(emi.title) like '%"+cadena+"%' and t_o.objectno = o.objectno and art.mediatp = m.mediatp and t_o.titleno = art.titleno and lower(o.locator) like '%.pdf' union select t1.title, t1.titleno, '' from titles t1, titleobjs tio, objects ob where lower(t1.title) like '%"+cadena+"%'and tio.objectno = ob.objectno  and tio.titleno = t1.titleno and t1.mediatp not in ('SART','SISS')and lower(ob.locator) like '%.pdf' order by 2";
-            consulta = "SELECT art.title ARTICULO, emi.titleno ID, emi.title EMISION " +
+            /*consulta = "SELECT art.title ARTICULO, emi.titleno ID, emi.title EMISION " +
                     "FROM TITLES art, TITLES emi, TITLEOBJS t_o, OBJECTS o, MEDIATPS m " +
                     "WHERE art.articleno = emi.titleno " +
                     "AND emi.articleno IS NOT NULL " +
@@ -40,14 +42,32 @@ public class Tabla {
                     "AND tio.titleno = t1.titleno " +
                     "--AND t1.mediatp NOT IN('SART',   'SISS') " +
                     "AND LOWER(ob.locator) LIKE '%.pdf' " +
-                    "ORDER BY 2";
+                    "ORDER BY 2";*/
+            
+             
+            // Se modifico la consulta para que solo busque titulos qie sean tesis, trabajos de grado o tesis doctoral
+            consulta="SELECT t1.title, t1.titleno, mtp.MEDIATPLD Categoria " +
+            "FROM TITLES t1, MEDIATPS mtp " +
+            "WHERE LOWER(t1.title) LIKE '%"+cadena+"%' " +
+            "AND t1.mediatp = mtp.MEDIATP " +
+            "AND t1.mediatp IN('TDOC', 'TESIS', 'TG') " +
+            "ORDER BY 2";
+             
         }
         this.usuario=usuario;
         this.contraseña=contraseña;
         this.url = url;
-        JDBCAdapter jjbca = new JDBCAdapter(url,"oracle.jdbc.driver.OracleDriver",usuario,contraseña);
-	jjbca.executeQuery(consulta);
-	table = new JTable(jjbca);
+        JDBCAdapter jjbca;
+        try {
+            jjbca = new JDBCAdapter(url,"oracle.jdbc.driver.OracleDriver",usuario,contraseña);
+            jjbca.executeQuery(consulta);
+            table = new JTable(jjbca);
+        } catch (ClassNotFoundException ex) {
+            JOptionPane.showMessageDialog(frame, "Existe un problema con el Driver de Oracle, favor comunicarse con soporte de Biblioteca", "Error de conexión", JOptionPane.ERROR_MESSAGE);
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(frame, "Error de conexión: "+ex.getMessage(), "Error de conexión", JOptionPane.ERROR_MESSAGE);
+        }
+	
     }
 
     /*public static void main(String[] args) {

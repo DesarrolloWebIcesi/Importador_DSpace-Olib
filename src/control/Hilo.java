@@ -41,9 +41,7 @@ public class Hilo extends java.lang.Thread{
                 //String cadenaConeccionDspace = (String)Ejecutable.getControl().getGui().getUrlDspace().get(Ejecutable.getControl().getGui().getComboDspace().getSelectedIndex());
                 //String servidor = (String)Ejecutable.getControl().getGui().getNomUrlDspace().get(Ejecutable.getControl().getGui().getComboDspace().getSelectedIndex());
                 //String eperson = (String)Ejecutable.getControl().getGui().getEpersonDspace().get(Ejecutable.getControl().getGui().getComboDspace().getSelectedIndex());
-                
                 //String coleccion = Ejecutable.getControl().getGui().getIdColeccion().getText();
-                
                 //String cadenaConeccionOlib = (String)Ejecutable.getControl().getGui().getUrlOlib().get(Ejecutable.getControl().getGui().getComboOlib().getSelectedIndex());
                 
                 String instanciaDSpace = Ejecutable.getControl().getGui().getNombreDSpace().getText();

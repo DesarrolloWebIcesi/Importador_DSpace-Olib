@@ -135,7 +135,8 @@ public class Control {
 	
         String emision = gui.getIdEmision().getText();
         
-        String carpeta = cortarCadena(servidor);  //nombre de la instancia de Dsapce a usar (coincide con el nombre de la carpera en el servidor)
+        //String carpeta = cortarCadena(servidor);  //nombre de la instancia de Dsapce a usar (coincide con el nombre de la carpera en el servidor)
+        String carpeta= "bibdigital";
         String[] tmp = (String[])retorno[0]; // lista de los nombres de archivos
         int valor = 10;  //las carpetas toman nombres 10, 11, 12, 13, etc con 10 como el valor inicial
         RunCommand comando = new RunCommand();
@@ -159,6 +160,7 @@ public class Control {
         comando.setSalida("");
         
         // 3 copiar todo el contenido local al remoto: Xcopy /s /e [origen local] [destino remoto]
+        //instruccion[0] = "Xcopy /s /e "+directorio.getAbsolutePath()+"\\"+emision+" Y:\\"+carpeta+"\\OLIB\\"+emision;
         instruccion[0] = "Xcopy /s /e "+directorio.getAbsolutePath()+"\\"+emision+" Y:\\"+carpeta+"\\OLIB\\"+emision;
         exitVal = comando.comando(instruccion);
         retorno = comando.getSalida();
